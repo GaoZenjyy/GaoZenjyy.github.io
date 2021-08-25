@@ -55,11 +55,11 @@
         demo4
       </div>
     </div>
-  </div></article><nav id="pagination"><div class="pagination"></div></nav><div id="vcomment"></div><script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = 'false' == 'true';
-var verify = 'false' == 'true';
-var record_ip = 'false' == 'true';
+  </div></article><nav id="pagination"><div class="pagination"></div></nav><div id="vcomment"></div><script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = '' == 'true';
+var verify = '' == 'true';
+var record_ip = 'true' == 'true';
 var GUEST_INFO = ['nick','mail','link'];
-var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+var guest_info = ''.split(',').filter(function(item){
   return GUEST_INFO.indexOf(item) > -1
 });
 guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
@@ -70,8 +70,8 @@ window.valine = new Valine({
   recordIP:record_ip,
   appId:'s452mpTuBAqbSkA7x4Cunaav-gzGzoHsz',
   appKey:'64FvaVH5evWgwzSf0efA8kJc',
-  placeholder:'Just go go',
-  avatar:'mm',
+  placeholder:'记得留下你的昵称和邮箱',
+  avatar:'monsterid',
   guest_info:guest_info,
   pageSize:'10',
   lang: 'zh-cn'
